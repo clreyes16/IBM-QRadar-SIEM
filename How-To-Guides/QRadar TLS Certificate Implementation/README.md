@@ -16,7 +16,9 @@ This guide is to be used for configuring and implementing a TLS certificate for 
 <sub>Expectations/Requirements: The steps are to be performed on DNS server.</sub>
 
 1. Login to DNS server (typically domain controller)
-   ![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/2f973067-f461-48e8-a348-f4b969e6d665)
+
+
+    ![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/2f973067-f461-48e8-a348-f4b969e6d665)
 
   ```bash
   sudo yum install -y docker docker-compose
