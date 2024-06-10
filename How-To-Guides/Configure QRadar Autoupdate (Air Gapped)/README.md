@@ -1,3 +1,1 @@
-#This how-to-guide provides instruction on how to properly configure a local updates repository for QRadar.
-#Within air-gapped environments there is zero internet connection, making the ability to retrieve Autoupdates directly to QRadar impossible.
-#Autoupdates are critical to QRadar as they provide critical information to QRadar such as configuration updates, DSM updates, as well as major and minor updates (https://www.ibm.com/docs/en/qsip/7.5?topic=tasks-automatic-updates).
+This how-to-guide provides instruction on how to properly configure a local updates repository for QRadar. Within air-gapped environments there is zero internet connection, making the ability to retrieve Autoupdates directly to QRadar impossible. Autoupdates are critical to QRadar as they provide critical information to QRadar such as configuration updates, DSM updates, as well as major and minor updates (https://www.ibm.com/docs/en/qsip/7.5?topic=tasks-automatic-updates).
