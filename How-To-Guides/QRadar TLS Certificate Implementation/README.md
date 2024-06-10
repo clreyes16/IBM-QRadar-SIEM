@@ -6,7 +6,7 @@ This guide is to be used for configuring and implementing a TLS certificate for 
 **Table of Contents**
 
   * [Create DNS A Record](#create-dns-a-record)
-    + [Installing and Setting up Docker](#installing-and-setting-up-docker)
+  * [Generate QRadar CSR](#generate-csr)
     + [Establishing the Required Security Files for the Registry](#establish-the-required-security-files-for-the-registry)
     + [Building, Mirroring, and Deploying the Container Registry](#building-mirroring-and-deploying-the-container-registry)
   * [Configuring AppHost for Air-Gapped Environment](#configuring-apphost-for-air-gapped-environment)
