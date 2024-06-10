@@ -1,2 +1,2 @@
 # IBM-QRadar
-# This repository has information related to QRadar configurations for both federal and non federal QRadar users. 
+# This repository contains how-to-guides for the administration and configuartion of IBM QRadar SIEM. While this repository mainly focuses on US Federal deployments with a focus on NIST compliance, a vast majority of these how-to-guides are also applicable to non-federal entities. 
