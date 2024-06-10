@@ -1,5 +1,5 @@
 # Configure TLS Certificate for QRadar Webpage
-<sub>Expectations/Requirements: SOAR and AppHost are already deployed in the air-gapped environment.</sub>
+<sub>Expectations/Requirements: A Windows domain administrator will be required in order to assist with the creation of the DNS record and certificate creation.</sub>
 
 This guide is to be used for deploying IBM Security SOAR in an air-gapped environment. This will include building a app registry, deploying and re-configuring a AppHost server, and connecting the SOAR System to your AppHost.
 
