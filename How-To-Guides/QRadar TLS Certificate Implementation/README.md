@@ -1,11 +1,11 @@
 # Configure TLS Certificate for QRadar Webpage
 <sub>Expectations/Requirements: A Windows domain administrator will be required in order to assist with the creation of the DNS record and certificate creation.</sub>
 
-This guide is to be used for deploying IBM Security SOAR in an air-gapped environment. This will include building a app registry, deploying and re-configuring a AppHost server, and connecting the SOAR System to your AppHost.
+This guide is to be used for configuring and implementing a TLS certificate for IBM QRadar SIEM webpage.
 
 **Table of Contents**
 
-  * [Creating your own Private Registry](#creating-your-own-private-registry)
+  * [Create DNS A Record](#create-dns-a-record)
     + [Installing and Setting up Docker](#installing-and-setting-up-docker)
     + [Establishing the Required Security Files for the Registry](#establish-the-required-security-files-for-the-registry)
     + [Building, Mirroring, and Deploying the Container Registry](#building-mirroring-and-deploying-the-container-registry)
