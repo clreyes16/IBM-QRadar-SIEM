@@ -1,4 +1,4 @@
-# Installing and Configuring SOAR for Air-Gapped Deployment
+# Configure TLS Certificate for QRadar Webpage
 <sub>Expectations/Requirements: SOAR and AppHost are already deployed in the air-gapped environment.</sub>
 
 This guide is to be used for deploying IBM Security SOAR in an air-gapped environment. This will include building a app registry, deploying and re-configuring a AppHost server, and connecting the SOAR System to your AppHost.
