@@ -25,10 +25,11 @@ This guide is to be used for configuring and implementing a TLS certificate for 
 
    ![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/a82da165-2988-4de9-a80a-fcac9376b9ad)
 
-3. Start docker service 
-  ```bash
-  sudo systemctl start docker
-  ```
+3. Click on the "Tools" tab and select DNS from the dropdown.
+
+
+   ![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/a1ad8bb7-6771-4f60-9827-25d121c1ce84)
+
 
 ---
 
