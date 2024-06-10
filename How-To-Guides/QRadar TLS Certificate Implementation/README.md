@@ -15,9 +15,7 @@ This guide is to be used for configuring and implementing a TLS certificate for 
 ## Create DNS A Record
 <sub>Expectations/Requirements: The steps are to be performed on DNS server.</sub>
 
-### Installing and Setting up Docker
-
-1. Install docker and docker-compose
+1. Login to DNS server (typically domain controller)
   ```bash
   sudo yum install -y docker docker-compose
   ```
