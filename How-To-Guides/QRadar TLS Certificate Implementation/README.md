@@ -20,7 +20,9 @@ This guide is to be used for configuring and implementing a TLS certificate for 
 
     ![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/2f973067-f461-48e8-a348-f4b969e6d665)
 
-2. Open Server Manager with appropriate credentials. 
+2. Open Server Manager with appropriate credentials.
+
+
    ![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/a82da165-2988-4de9-a80a-fcac9376b9ad)
 
 3. Start docker service 
