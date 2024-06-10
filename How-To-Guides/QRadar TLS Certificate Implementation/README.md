@@ -25,7 +25,7 @@ This guide is to be used for configuring and implementing a TLS certificate for 
 
    ![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/a82da165-2988-4de9-a80a-fcac9376b9ad)
 
-3. Click on the "Tools" tab and select DNS from the dropdown.
+3. Click on the "Tools" tab and select "DNS" from the dropdown.
 
 
    ![Screenshot 2024-06-10 140741](https://github.com/clreyes16/IBM-QRadar/assets/61694366/a2ba30ac-2171-4c4e-b080-ecabc33bf396)
