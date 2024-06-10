@@ -7,14 +7,13 @@ This guide is to be used for configuring and implementing a TLS certificate for 
 
   * [Create DNS A Record](#create-dns-a-record)
   * [Generate QRadar CSR](#generate-csr)
-    + [Establishing the Required Security Files for the Registry](#establish-the-required-security-files-for-the-registry)
-    + [Building, Mirroring, and Deploying the Container Registry](#building-mirroring-and-deploying-the-container-registry)
-  * [Configuring AppHost for Air-Gapped Environment](#configuring-apphost-for-air-gapped-environment)
-    + [Configuring Kubernetes to Use the Private Registry](#configuring-kubernetes-to-use-the-private-registry)
-    + [Establishing the AppHost Pairing](#establishing-the-apphost-pairing)
+  * [Generate Certificate](#generate-certificate)
+  * [Import and Convert Certificate](#import-and-convert-certificate)
+  * [Implement QRadar Certificate](#implement-qradar-certificate)
+  * [Verify QRadar Webpage is TLS Encrypted](#verify-qradar-webpage-is-tls-encrypted)
 
-## Creating your own Private Registry
-<sub>Expectations/Requirements: The commands below are if you are installing on a CentOS or RHEL box.</sub>
+## Create DNS A Record
+<sub>Expectations/Requirements: The steps are to be performed on DNS server.</sub>
 
 ### Installing and Setting up Docker
 
