@@ -24,3 +24,9 @@ fips-mode-setup --check
 fips-mode-setup --enable
  ```
 2. Similar output to the below screenshot should be seen.
+
+## Verify FIPS Enablement
+1. After the reboot verify FIPS is successfully enabled via the following command:
+```bash
+fips-mode-setup --check
+```
