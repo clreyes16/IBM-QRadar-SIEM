@@ -17,6 +17,8 @@ This guide provides instructions on how to enable FIPS within a QRadar deploymen
 fips-mode-setup --check
 ```
 3. Ensure the output of the following command, appears as shown.
+   ![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/f2b46fa8-7413-4a20-81a9-d863abd77f6c)
+
 
 ## Enable FIPS
 1. Enable FIPS via the following command:
