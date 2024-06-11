@@ -3,6 +3,7 @@
 
 This guide provides instructions on how to enable FIPS within a QRadar deployment. Enabling FIPS is critical within QRadar deployments being hosted in government entities that require STIG compliance. There are 20 items within the RHEL 8 STIG Version 1 Release 14 that are all directly applicable to FIPS enablement, to include a CAT 1. 
 
-'''bash
+1.
+```bash
 fips-mode-setup --enable
-'''
+ ```
