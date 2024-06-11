@@ -42,7 +42,10 @@ reboot
 
 
 ## Verify FIPS Enablement
-1. After the reboot verify FIPS is successfully enabled via the following command:
+1. After the reboot, log back onto the console via putty or other terminal emulator. You will be prompted with following warning due to FIPS being enabled, click "Accept" verify FIPS is successfully enabled via the following command:
+
+![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/7f2134cf-85b8-4aa5-b443-bdf110cf7162)
+
 ```bash
 fips-mode-setup --check
 ```
