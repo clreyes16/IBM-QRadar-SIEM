@@ -5,10 +5,10 @@ This guide provides instruction on how to configure QRadar autoupdates within an
 
 
 Update files can include the following updates:
-* • Configuration updates that are based on content, including configuration file changes, vulnerabilities, QID maps, supportability scripts, and security threat information updates.
-* • DSM, scanner, and protocol updates that include corrections to parsing issues, scanner changes, and protocol updates.
-* • Major updates, such as updated JAR files or large patches, that require restarting the user interface service.
-* • Minor updates, such as daily automatic update logs or QID map scripts, that do not restart the user interface service.
+* Configuration updates that are based on content, including configuration file changes, vulnerabilities, QID maps, supportability scripts, and security threat information updates.
+* DSM, scanner, and protocol updates that include corrections to parsing issues, scanner changes, and protocol updates.
+* Major updates, such as updated JAR files or large patches, that require restarting the user interface service.
+* Minor updates, such as daily automatic update logs or QID map scripts, that do not restart the user interface service.
 
 **Table of Contents**
 
