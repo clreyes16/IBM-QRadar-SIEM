@@ -17,6 +17,9 @@ This guide provides instructions on how to enable FIPS within a QRadar deploymen
 fips-mode-setup --check
 ```
 3.
+
+## Enable FIPS
+1. Enable FIPS via the following command:
 ```bash
 fips-mode-setup --enable
  ```
