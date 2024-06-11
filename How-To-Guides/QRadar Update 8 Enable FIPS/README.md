@@ -7,6 +7,7 @@ This guide provides instructions on how to enable FIPS within a QRadar deploymen
 * [Verify FIPS Status](#verify-fips-status)
 * [Enable FIPS](#enable-fips)
 * [Verify FIPS Enablement](#verify-fips-enablement)
+* [Conclusion](#conclusion)
   
 ## Verify FIPS Status
 <sub>Expectations: While it is assumed that the QRadar deployment is not FIPS enabled, it is always best to first verify the current FIPS status of the QRadar deployment prior to continuing.<sub>
@@ -58,3 +59,5 @@ fips-mode-setup --check
    
 ![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/cd319a1b-e36e-4d8a-bfca-176338bfaca2)
 
+## Conclusion
+After verifying that the Console has successfully enabled FIPS, you must go perform all previous steps on all remaining managed hosts within the QRadar deployment.
