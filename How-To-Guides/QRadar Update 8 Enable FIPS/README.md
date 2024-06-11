@@ -52,5 +52,9 @@ reboot
 fips-mode-setup --check
 ```
 
+
+3. The following output in the screenshot should be observed on your deployment.
+
+   
 ![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/cd319a1b-e36e-4d8a-bfca-176338bfaca2)
 
