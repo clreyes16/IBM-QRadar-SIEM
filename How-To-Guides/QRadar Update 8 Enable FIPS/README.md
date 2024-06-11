@@ -28,6 +28,10 @@ fips-mode-setup --enable
  ```
 2. Similar output to the below screenshot should be seen.
 
+
+![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/8edffce1-9177-45e5-9bad-59cf2bff36bd)
+
+
 ## Verify FIPS Enablement
 1. After the reboot verify FIPS is successfully enabled via the following command:
 ```bash
