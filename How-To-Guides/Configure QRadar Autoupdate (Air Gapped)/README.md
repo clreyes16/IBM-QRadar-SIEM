@@ -2,6 +2,8 @@
 <sub>Expectations/Requirements: Access to system that has outbound internet connection is required, as well as the ability to transfer the autoupdate.tgz into the air gapped environment.</sub>
 
 This guide provides instruction on how to configure QRadar autoupdates within an air gapped environment. This guide is critically important for QRadar systems that are deployed within air-gapped environments. Ensuring that QRadar is updated weekly is important to the continued operation of the QRadar deployment, below is a break down of the information auto updates provide:
+
+
 Update files can include the following updates:
 • Configuration updates that are based on content, including configuration file changes, vulnerabilities, QID maps, supportability scripts, and security threat information updates.
 • DSM, scanner, and protocol updates that include corrections to parsing issues, scanner changes, and protocol updates.
