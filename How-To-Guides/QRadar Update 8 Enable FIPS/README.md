@@ -9,17 +9,18 @@ This guide provides instructions on how to enable FIPS within a QRadar deploymen
 * [Verify FIPS Enablement](#verify-fips-enablement)
   
 ## Verify FIPS Status
-<sub>Expectations: While it is assumed that the QRadar deployment is not FIPS enabled, it is always best to first verify the current FIPS status of the QRadar deployment.<sub>
+<sub>Expectations: While it is assumed that the QRadar deployment is not FIPS enabled, it is always best to first verify the current FIPS status of the QRadar deployment prior to continuing.<sub>
 
 1. Login to QRadar Console CLI via Putty or other terminal emulator.
 2. Verify system does not currently have FIPS enabled via the following command.
 ```bash
 fips-mode-setup --check
 ```
-3.
+3. Ensure the output of the following command, appears as shown.
 
 ## Enable FIPS
 1. Enable FIPS via the following command:
 ```bash
 fips-mode-setup --enable
  ```
+2. Similar output to the below screenshot should be seen.
