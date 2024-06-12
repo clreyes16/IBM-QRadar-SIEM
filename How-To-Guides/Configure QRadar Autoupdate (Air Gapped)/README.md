@@ -22,6 +22,6 @@ Update files can include the following updates:
 
 1. Open a web browser, such as FireFox or Chrome.
 
- ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/24f670bd-a947-45bf-b686-acdc9a2f1f09)
+2. Within the URL address bar enter the following link: https://www.ibm.com/support/fixcentral/
 
-2. 
+3. 
