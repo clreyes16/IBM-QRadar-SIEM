@@ -18,7 +18,7 @@ This guide is to be used for configuring and implementing a TLS certificate for 
 1. Login to DNS server (typically domain controller) with the appropriate credentials.
 
 
-    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/2432f1bf-ef0e-44da-9873-2e69a89cbd94)
+![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/2432f1bf-ef0e-44da-9873-2e69a89cbd94)
 
 
 2. Open Server Manager with appropriate credentials.
