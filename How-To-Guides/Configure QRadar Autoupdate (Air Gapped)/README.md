@@ -28,11 +28,16 @@ Update files can include the following updates:
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/6e4be290-d3a4-4b1f-80be-c51566f50fc3)
 
-4. After selecting IBM Security QRadar SIEM, the next step is select both the "Installed Version" and "Platform"
+4. After selecting IBM Security QRadar SIEM, the next step is select both the "Installed Version", "Platform" and click "Continue"
 
 * Installed Version = 7.5.0
 * Platform = Linux
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/27a0da5c-7090-45c0-9cae-be4513a7acee)
+
+5. The next page is the "Idenfity fixes" page, leave the default option of "Browse for fixes", as shown and click "Continue"
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/d472361f-3177-4b7a-aae9-baa329e01ef1)
+
 
 
