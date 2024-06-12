@@ -39,5 +39,10 @@ Update files can include the following updates:
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/d472361f-3177-4b7a-aae9-baa329e01ef1)
 
+6. After clicking continue, the following page of "Select fixes" will be loaded. Select "AUTOUPDATE" as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/f061be25-97f9-4bff-817f-5ce05e0dc871)
+
+
 
 
