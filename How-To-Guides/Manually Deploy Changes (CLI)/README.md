@@ -21,6 +21,8 @@ This guide provides instruction on how to manually deploy changes for a QRadar d
 ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/2432f1bf-ef0e-44da-9873-2e69a89cbd94)
 
 
-2. Open Server Manager with appropriate credentials.
+3. As seen in step 2, the deployment of changes will commence. This may take a few minutes depending on the amount of managed hosts and the hardware itself.
+
+4. As shown in the following image, ensure the deployment of changes were successful for all hosts within the deployment.
 
 ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/640d81a9-285a-474a-bd8b-f67e55ee9209)
