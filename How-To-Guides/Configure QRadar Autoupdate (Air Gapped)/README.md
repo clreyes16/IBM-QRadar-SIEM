@@ -20,4 +20,8 @@ Update files can include the following updates:
 ## Download QRadar Auto Update from IBM Fix Central
 <sub>Expectations/Requirements: This section requires both an internet connection and a w3 account to access the IBM Fix Central site.</sub>
 
-1. Login to DNS server (typically domain controller) with the appropriate credentials.
+1. Open a web browser, such as FireFox or Chrome.
+
+![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/24f670bd-a947-45bf-b686-acdc9a2f1f09)
+
+2. 
