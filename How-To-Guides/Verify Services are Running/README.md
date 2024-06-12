@@ -33,7 +33,10 @@ This guide provides instruction on how to ensure all required services are runni
 
 ## Event/Flow Processor Services
 
-![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/5a80f43d-3bd1-4bd3-960e-11f07abc9a25)
+![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/f474b2b0-17aa-47a7-a628-bf04ce60a86e)
+
 
 
 ## App Host Services
+
+![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/66940e06-777c-48d8-a26c-6172117b7c7e)
