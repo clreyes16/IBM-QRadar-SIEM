@@ -24,4 +24,7 @@ Update files can include the following updates:
 
 2. Within the URL address bar enter the following link: https://www.ibm.com/support/fixcentral/
 
-3. 
+3. Within the "Product selector" window type qradar, scroll down and select "IBM Security QRadar SIEM", as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/6e4be290-d3a4-4b1f-80be-c51566f50fc3)
+
