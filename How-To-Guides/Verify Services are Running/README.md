@@ -21,8 +21,17 @@ This guide provides instruction on how to ensure all required services are runni
 ![Screenshot 2024-06-12 100427](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/0b2bc4e7-5b71-4c30-9ce7-22c981dcc6d5)
 
 
-3. As seen in step 2, the deployment of changes will commence. This may take a few minutes depending on the amount of managed hosts and the hardware itself.
+3. Each QRadar server type has a different amount of services which run. Do not be concerned as to the number of services which show up between hosts. Just ensure that after executing the previous command returns all services are running, as shown in step 4. 
 
-4. As shown in the following image, ensure the deployment of changes were successful for all hosts within the deployment.
+4. As shown in the following image, ensure all services are running. The following images are the different services which run on a Console, Event/Flow Processor and an App Host for comparsion purposes.
 
-![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/640d81a9-285a-474a-bd8b-f67e55ee9209)
+   
+## Console Services
+![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/339f311d-951b-416c-a331-8eaefeac3667)
+
+
+
+## Event/Flow Processor Services
+
+
+## App Host Services
