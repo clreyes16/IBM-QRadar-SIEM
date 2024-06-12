@@ -33,6 +33,6 @@ Update files can include the following updates:
 * Installed Version = 7.5.0
 * Platform = Linux
 
-![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/27a0da5c-7090-45c0-9cae-be4513a7acee)
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/27a0da5c-7090-45c0-9cae-be4513a7acee)
 
 
