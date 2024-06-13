@@ -64,6 +64,10 @@ Update files can include the following updates:
 
     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/7823c7df-1381-4c0a-a6a9-42d27b2fbe89)
 
+12. You will be redirected to the "Order fixes" page as shown. Click on the .tgz autoupdate file in order to download the updates file.
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/3cfa1f88-7ca6-46c4-bab3-a5f64f3e282e)
+
 
 
 
