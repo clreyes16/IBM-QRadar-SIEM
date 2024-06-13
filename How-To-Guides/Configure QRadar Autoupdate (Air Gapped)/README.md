@@ -52,5 +52,18 @@ Update files can include the following updates:
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/7960cb14-c1be-4035-858d-62e7b832fb00)
 
+9. The next webpage redirection will be to the selection of single sign on. Select the applicable option.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/cca828a8-8154-4f27-8f90-a1bf1bb97775)
+
+10. Enter your information and click "Sign in".
+    
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/b098feaa-1898-4c3e-883b-407201af9dce)
+
+11. Once successfully logged in you will be redirected to the Download options page, as shown. Select "Download using your browser (HTTPS) and click "Continue".
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/7823c7df-1381-4c0a-a6a9-42d27b2fbe89)
+
+
 
 
