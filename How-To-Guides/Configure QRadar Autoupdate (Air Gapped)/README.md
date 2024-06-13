@@ -43,6 +43,14 @@ Update files can include the following updates:
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/f061be25-97f9-4bff-817f-5ce05e0dc871)
 
+7. This will automatically send you to the "AUTOUPDATE" section of the page. Locate the latest autoupdate and click on the name as shown.
+
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/6b26109f-36f5-42f7-85bc-2b41993f2e21)
+
+8. You will then be redirected to the IBM Login page as shown. Enter your IBMid and click "Continue", as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/7960cb14-c1be-4035-858d-62e7b832fb00)
 
 
 
