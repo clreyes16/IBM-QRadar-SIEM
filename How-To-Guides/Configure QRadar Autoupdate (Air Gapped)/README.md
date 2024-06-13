@@ -69,6 +69,11 @@ Update files can include the following updates:
     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/09de87f4-76b7-494a-bee0-b9be4f64827a)
 
 
+13. Once the download for the autoupdate file is completed, verify it is in the your downloads directory, as shown.
 
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/bbd21b36-4990-4bdb-88ff-0921d575b2f5)
+
+
+    
 
 
