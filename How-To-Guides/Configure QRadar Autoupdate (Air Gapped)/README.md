@@ -74,6 +74,11 @@ Update files can include the following updates:
     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/bbd21b36-4990-4bdb-88ff-0921d575b2f5)
 
 
+## Configure QRadar for Local Autoupdate
+
+1. Login to QRadar Console CLI via Putty or other terminal emulator
+
+2. 
     
 
 
