@@ -82,6 +82,6 @@ Update files can include the following updates:
    ```bash
    df -h
    ```
-    
+3. Verify the autupdates directory is not present within the /opt/qradar/www directory via the following command
 
 
