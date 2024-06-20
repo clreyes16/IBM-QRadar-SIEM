@@ -75,10 +75,13 @@ Update files can include the following updates:
 
 
 ## Configure QRadar for Local Autoupdate
-
 1. Login to QRadar Console CLI via Putty or other terminal emulator
 
-2. 
+2. Verify the /opt parition has sufficient available space via the following command:
+
+   ```bash
+   df -h
+   ```
     
 
 
