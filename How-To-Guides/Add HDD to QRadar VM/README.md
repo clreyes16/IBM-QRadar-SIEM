@@ -7,7 +7,7 @@ This how to guide provides instruction on how to add an additional hard drive to
 **Table of Contents**
 
   * [Add HDD to QRadar VM](#add-hdd-to-qradar)
-  * [Configure QRadar Console for local Auto Update](#configure-qradar-console-for-loca-auto-update)
+  * [Add HDD to Volume Group](#add-hdd-to-volume-group)
   * [Modify QRadar Auto Update Settings](#modify-qradar-auto-update-settings)
   * [Update QRadar](#update-qradar)
 
@@ -39,3 +39,18 @@ This how to guide provides instruction on how to add an additional hard drive to
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/e7a211da-c1b2-4be1-b5ff-5663fb449b3b)
 
+8. The "Edit Settings" window will close and return to the vCenter/vSphere page. Verify the hard disk was added, as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/0e11284c-ec40-47d3-a7a8-24480f4e439f)
+
+
+## Add HDD to Volume Group
+<sub>Expectations/Requirements: This section requires QRadar privileged user with sudo or root.</sub>
+
+1. Log into QRadar CLI with root or user that has sudo permissions.
+
+2. At the command prompt enter the following command to list out hard drives and partitions:
+
+   ```bash
+   lsblk
+   ```
