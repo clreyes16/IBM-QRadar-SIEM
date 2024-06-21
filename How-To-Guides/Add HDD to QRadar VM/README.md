@@ -54,3 +54,6 @@ This how to guide provides instruction on how to add an additional hard drive to
    ```bash
    lsblk
    ```
+3. The previous command should produce output similar to the screenshot. Locate the new hard disk. In the screen shot the new hard disk is recongized as /dev/sdb.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/ff9df641-3024-4309-84b2-42ff7635e577)
