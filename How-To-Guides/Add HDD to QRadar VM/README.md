@@ -20,7 +20,7 @@ This how to guide provides instruction on how to add an additional hard drive to
 
 3. Locate the QRadar VM in question, as shown.
 
-   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/aceac096-71e9-428c-adba-04a2d60cce86)
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/ce6cbfc3-cbc0-4f51-8e95-596f668220ea)
 
 
-4. After selecting IBM Security QRadar SIEM, the next step is select both the "Installed Version", "Platform" and click "Continue"
+4. 
