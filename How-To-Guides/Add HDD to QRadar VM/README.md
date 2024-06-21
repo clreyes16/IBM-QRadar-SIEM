@@ -25,14 +25,14 @@ This how to guide provides instruction on how to add an additional hard drive to
 
 4. The "Edit Settings" window will appear as shown.
 
-![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/57c2ee02-2a8d-440d-9655-07a0d24684d2)
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/57c2ee02-2a8d-440d-9655-07a0d24684d2)
 
 5. Click on "ADD NEW DEVICE" and select "Hard Disk" as shown.
 
-![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/771440f1-bbed-4712-a338-530924da8958)
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/771440f1-bbed-4712-a338-530924da8958)
 
 6. After clicking on "Hard Disk", the new hard disk will be added as shown.
 
-![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/0a95a277-8565-4f7c-a6d0-9965525c19ce)
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/0a95a277-8565-4f7c-a6d0-9965525c19ce)
 
 7. 
