@@ -18,7 +18,7 @@ This how to guide provides instruction on how to add an additional hard drive to
 
 2. Within the URL address bar naviagate to the vCenter/vSphere webpage.
 
-3. Locate the QRadar VM in question, as shown.
+3. Locate the QRadar VM in question, within the "VM Hardware" section click on the "Edit" button,  as shown.
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/ce6cbfc3-cbc0-4f51-8e95-596f668220ea)
 
