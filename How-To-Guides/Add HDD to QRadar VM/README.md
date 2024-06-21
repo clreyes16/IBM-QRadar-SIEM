@@ -35,4 +35,7 @@ This how to guide provides instruction on how to add an additional hard drive to
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/0a95a277-8565-4f7c-a6d0-9965525c19ce)
 
-7. 
+7. Change the value of the hard disk size to the desired size. After changing the size of the hard disk, click "OK" as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/e7a211da-c1b2-4be1-b5ff-5663fb449b3b)
+
