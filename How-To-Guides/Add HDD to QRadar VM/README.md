@@ -54,6 +54,27 @@ This how to guide provides instruction on how to add an additional hard drive to
    ```bash
    lsblk
    ```
-3. The previous command should produce output similar to the screenshot. Locate the new hard disk. In the screen shot the new hard disk is recongized as /dev/sdb.
+3. The previous command should produce output similar to the screenshoot. Locate the new hard disk. In the screenshoot the new hard disk is recongized as /dev/sdb.
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/ff9df641-3024-4309-84b2-42ff7635e577)
+
+4. Initialize the new hard disk for use, enter the following command:
+
+   ```bash
+   fdisk /dev/sdb
+   ```
+
+5. The fdisk utility should pop up as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/ef0a01c6-6699-423c-aeb3-c44108e8b154)
+
+6. Enter the following options when prompted:
+   . Command (m for help): n
+   . Partition type: p
+   . Partition number: hit Enter key
+   . First sector: hit Enter key
+   . Last sector: hit Enter key
+   . Command (m for help): t
+   . Hex code (type L to list all codes): 8e
+   . Command (m for help): w
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/6af3a34c-e1bc-4544-a186-5c30c87b7def)
