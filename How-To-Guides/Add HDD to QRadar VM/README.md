@@ -87,7 +87,8 @@ This how to guide provides instruction on how to add an additional hard drive to
    ```bash
    lsblk
    ```
-   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/cb75a8c0-e21f-4a18-9e7f-50e8901236ec)
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/d3577e80-a22b-478d-b37f-e143eba58029)
+
 
 9.
 
