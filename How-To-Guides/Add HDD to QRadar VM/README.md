@@ -90,6 +90,11 @@ This how to guide provides instruction on how to add an additional hard drive to
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/d3577e80-a22b-478d-b37f-e143eba58029)
 
 
-9.
+9. After ensuring the partition was created, create the physical volume via the following command:
+    ```bash
+    pvcreate /dev/sdb1
+    ```
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/6875f949-ab33-4a46-a904-cab00e9fdf65)
+
 
 
