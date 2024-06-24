@@ -125,6 +125,15 @@ This how to guide provides instruction on how to add an additional hard drive to
    ```
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/1e315049-3331-4b04-bd5d-dddcf55feca4)
 
+4. Finally, verify that the /store partition has successfully expanded as shown.
+
+   ```bash
+   lsblk
+   ```
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/cefb6e0c-24ad-4f0b-8951-806cf757a65e)
+
+   
+
 
  
 
