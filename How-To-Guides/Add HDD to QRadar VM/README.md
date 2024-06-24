@@ -78,3 +78,17 @@ This how to guide provides instruction on how to add an additional hard drive to
    . Hex code (type L to list all codes): 8e
    . Command (m for help): w
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/6af3a34c-e1bc-4544-a186-5c30c87b7def)
+
+7. After writing the changes, you will be returned to the prompt as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/3c4eead0-81b4-4a8e-a7d3-a2626d54cc6f)
+
+8. Verify the partition was created and recongized via the following command:
+   ```bash
+   lsblk
+   ```
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/cb75a8c0-e21f-4a18-9e7f-50e8901236ec)
+
+9.
+
+
