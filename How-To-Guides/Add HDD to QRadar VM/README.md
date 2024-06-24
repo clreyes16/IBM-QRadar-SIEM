@@ -118,7 +118,12 @@ This how to guide provides instruction on how to add an additional hard drive to
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/831b4b3a-6a49-4bd3-af1e-3b1f95c5de08)
 
-3. 
+3. Verify the volume group has no free space. Compare this step against step 1 within this section.
+
+   ```bash
+   vgs
+   ```
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/1e315049-3331-4b04-bd5d-dddcf55feca4)
 
 
  
