@@ -8,8 +8,7 @@ This how to guide provides instruction on how to add an additional hard drive to
 
   * [Add HDD to QRadar VM](#add-hdd-to-qradar)
   * [Add HDD to Volume Group](#add-hdd-to-volume-group)
-  * [Modify QRadar Auto Update Settings](#modify-qradar-auto-update-settings)
-  * [Update QRadar](#update-qradar)
+  * [Extend Partition/Logical Volume](#extend-partition-logical-volume)
 
 ## Add HDD to QRadar VM
 <sub>Expectations/Requirements: This section requires vCenter/vSphere permissions to edit VM's and add an HDD.</sub>
@@ -96,5 +95,32 @@ This how to guide provides instruction on how to add an additional hard drive to
     ```
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/6875f949-ab33-4a46-a904-cab00e9fdf65)
 
+10. Finally, extend the new hard disk into the desired volume group. The volume group for this example is the storerhel volume group. Use the following command:
+    ```bash
+    vgextend /dev/mapper/storerhel /dev/sdb1
+    ```
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/c98a24de-07e4-4e9d-8003-cfbcaf8ca069)
+
+## Extend Partition/Logical Volume
+
+1. Having extedned the volume group, the next step is to verify the size of the volume group. To do this run the following command:
+   ```bash
+   vgs
+   ```
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/521f5f5e-9224-4308-8016-24406e88a46c)
+
+
+2. With the volume group being verified to be extended, the next step is to extend the partition/logical volume via the following command:
+
+   ```bash
+   lvextend -L 800G /dev/mapper/storerhel-store
+   ```
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/831b4b3a-6a49-4bd3-af1e-3b1f95c5de08)
+
+3. 
+
+
+ 
 
 
