@@ -1,5 +1,5 @@
 # Configure TLS Certificate for QRadar Webpage
-<sub>Expectations/Requirements: A Windows domain administrator will be required in order to assist with the creation of the DNS record and certificate creation.</sub>
+<sub>Disclaimer: While the IBM QRadar “Installing a new SSL certificate” article (https://www.ibm.com/docs/en/qsip/7.5?topic=certificates-installing-new-ssl-certificate) is mostly correct, it is missing a major component. This component is the generation of the certificate signing request (CSR) with a subject alternate name (SAN). Modern browsers have enforcement of SAN within a certificate. This means that if you generate a CSR and corresponding certificate via the above listed article, it will never be trusted by the browser, regardless of if you have the root CA in the trusted authorities of the browser. A SAN is required for the certificate to be trusted. This how to guide will demonstrate how to create a san file. .</sub>
 
 This guide is to be used for configuring and implementing a TLS certificate for IBM QRadar SIEM webpage.
 
