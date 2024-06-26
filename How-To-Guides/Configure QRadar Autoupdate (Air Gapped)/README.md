@@ -82,6 +82,137 @@ Update files can include the following updates:
    ```bash
    df -h
    ```
-3. Verify the autupdates directory is not present within the /opt/qradar/www directory via the following command
+3. Verify the autupdates directory is not present within the /opt/qradar/www directory via the following command:
+
+   ```bash
+   ls /opt/qradar/www
+   ```
+   
+   ![image](https://media.github.ibm.com/user/379722/files/438b29eb-7c4a-4bf1-a295-2969c4b87468)
+
+4. If the autoupdates directory is present, you can remove it via the following command:
+
+   ```bash
+   rm -rf /opt/qradar/www/autoupdates
+   ```
+   
+5. Create the /store/downloads/autoupdates directory via the following command:
+
+   ```bash
+   mkdir -p /store/downloads/autoupdates
+   ```
+   
+   ![image](https://media.github.ibm.com/user/379722/files/829018e1-33a8-462d-8cfa-625d3b2ebf71)
+
+6. After creating the autoupdates directory, the next step is to create a symbolic link between /store/downloads/autoupdates and /opt/qradar/www via the following command:
+   
+   ```bash
+   ln -s /store/downloads/autoupdates /opt/qradar/www
+   ```
+ 
+    ![image](https://media.github.ibm.com/user/379722/files/7fe06d7d-e1b5-4c44-8b20-211345acd103)
+
+7. Verify the symbolic link was created via the following command:
+
+   ```bash
+   ll /opt/qradar/www
+   ```
+   
+   ![image](https://media.github.ibm.com/user/379722/files/933a14ec-2f60-4781-bff0-ae1946091dd3)
+
+8. Transfer autoupdate.tgz from downloads directory to the QRadar Console directory /opt/qradar/www/autoupdates via WinSCP or other file transfer agent as shown.
+   
+   ![image](https://media.github.ibm.com/user/379722/files/e113ef75-01f3-41c4-9eb3-d0611ebb6854)
+
+9. Verify the autoupdate.tar.gz successfully transferred as shown.
+
+   ![image](https://media.github.ibm.com/user/379722/files/1358eb5c-2fdc-4269-a965-2c694e2e8870)
+   
+10. Within the QRadar Console CLI change directories to the /opt/qradar/www/autoupdates via the following command:
+
+    ```bash
+    cd /opt/qradar/www/autoupdates
+    ```
+    
+    ![image](https://media.github.ibm.com/user/379722/files/20d86e20-6b09-4abe-b6ec-ee86449f2732)
+    
+11. Extract the autoupdate.tgz within the /opt/qradar/www/autoupdates direcotry via the following command:
+
+    ```bash
+    tar -xvzf autoupdate-1718222549.tgz
+    ```
+    ![image](https://media.github.ibm.com/user/379722/files/b39539f8-09f8-4e2a-aa9f-413bb3323156)
+
+
+12. Verify the contents of the autoupdate.tgz file completely extract as shown.
+
+    ![image](https://media.github.ibm.com/user/379722/files/6dcd616c-b0aa-4060-8e95-e638ff11741c)
+    
+## Modification to QRadar Auto Update     
+
+1. Log into QRadar webpage.
+
+2. After logging into the QRadar webpage, click on the "Admin" tab as shown.
+
+   ![image](https://media.github.ibm.com/user/379722/files/ffe570e9-b0ef-4061-bfe8-72c89f9766e1)
+   
+3. Select the Auto Update options as shown.
+
+   ![image](https://media.github.ibm.com/user/379722/files/00961745-4484-4025-89e6-56b153dff42c)
+
+4. The Auto Update pop-up window will appear as shown, click on "Change Settings" as shown.
+  
+   ![image](https://media.github.ibm.com/user/379722/files/8aa3e236-c84c-4dc4-bebf-3fa4cb3a1360)
+
+5. The "Change Settings" window will appear as shown. Click on "Advanced".
+
+   ![image](https://media.github.ibm.com/user/379722/files/babf686b-42c6-4683-9fa5-cf5fcd06c062)
+
+6. The default internet information for autoupdate retrieves will be prepopulated as shown. 
+
+   ![image](https://media.github.ibm.com/user/379722/files/1de6e7fa-b3c8-47e3-8761-e28328ad521b)
+
+7. Modify the following fields, as shown.
+   * Web Server = https://fqdnofconsole/
+   * Directory = autoupdates/
+   * Click "Save"
+   
+   ![image](https://media.github.ibm.com/user/379722/files/73f4696f-c226-41e5-887f-271fa8bf0ec3)
+
+
+8. The "Application Restart Required" pop-up window will appear. Click "Yes" as shown.
+   
+   ![image](https://media.github.ibm.com/user/379722/files/23898df8-c7ce-4dbe-bfb0-b4202e748875)
+
+9. After clicking "Yes", you will be returned to the advanced setting page. There will be the following message shown will appear. 
+
+   ![image](https://media.github.ibm.com/user/379722/files/c731c29b-b20b-4098-a767-962227637744)
+
+   
+10. After receiving this message, navigate to the left pane and Click on "Check for Updates", after which click on "Get New Updates" as shown.
+ 
+    
+    ![image](https://media.github.ibm.com/user/379722/files/e38e768b-0c3d-4647-98e7-402874c048e4)
+
+    
+11. The following confirmation windows will appear, click "OK".
+
+     ![image](https://media.github.ibm.com/user/379722/files/7a8d60e5-0515-4369-b3a5-6a086454884e)
+
+12. After clicking "OK", you will receive the following message as shown. 
+ 
+    ![image](https://media.github.ibm.com/user/379722/files/7cbd47d0-0696-449a-9df4-8774df6d4131)
+    
+13. Return to the QRadar Console CLI and run the following command and watch the output. Verify the auto updates complete successfully as shown.
+
+    ```bash 
+    tail -f /var/log/qradar.log | grep update*
+    ```
+    ![image](https://media.github.ibm.com/user/379722/files/eaa97a10-a571-417e-b845-e935c6043a4c)
+
+14. Return to the Auto Update pop-up window and click on "View Log". Ensure you see the following message of "All updates completed successfully".
+
+    ![image](https://media.github.ibm.com/user/379722/files/5ee9a634-3e8b-4e3a-a2ca-05b4f012b75b)
+
 
 
