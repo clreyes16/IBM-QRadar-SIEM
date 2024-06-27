@@ -161,5 +161,5 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/03ed9656-1d3a-46db-9041-38343ecfece6)
 
 
-    
+18. You will be returned 
 
