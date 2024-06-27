@@ -13,6 +13,7 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
   * [Download FederationMetadata.xml File](#download-federationmetadata.xml-file)
   * [Configure QRadar SAML 2.0 Authentication](#configure-qradar-saml-2.0-authencation)
   * [Configure ADFS Relying Party Trusts](#configure-adfs-relying-party-trusts)
+  * [Configure QRadar Accounts](#configure-qradar-accounts)
   * [Verify Successful QRadar Logon](#verify-successful-qradar-logon)
 ---
 ## Build ADFS Certificate Template
@@ -145,7 +146,15 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/9b3f9da7-71bf-44f7-ae85-dc454663aba6)
 
-    
+15. This will launch the "Certificate Properties" pop-up window. Perform the following actions within the "Subject" tab.
+    * Subject name = Type: Common Name -> FQDN (example: adfs.dmz.fisc.domain)
+    * Alternative name:  Type: DNS -> FQDN (example: adfs.dmz.fisc.domain)  
 
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/a86968f1-68da-4aa1-b3c8-050091492144)
+
+16. After entering that information, click on the "Private Key" tab. Expand the "Key options" section and select to make the private key exportable as shown.
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/d2d0d54e-8f61-45e7-9746-64aef6af52bb)
+    
 
 
