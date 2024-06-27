@@ -52,7 +52,11 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 9. The "Select Users, Computers, Service Accounts, or Groups" pop-up window will appear. Type "Domain Computers" and click "Check Names" as shown to ensure you entered the right object. After ensuring the right object was selected click "OK".
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/fc43aed7-ace4-4fbb-8b8a-c9c3d16fc9ab)
-   
+
+10. The "Select Users, Computers, Service Accounts, or Groups" pop-up window will close and you will be returned to the "Properties of New Template" window. Click on "Domain Computers" and provide "Allow" premissions for Read, Enroll and Autoenroll as shown.
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/171ac47b-a883-44a2-8617-fcda3807dd7e)
+
 
 
       
