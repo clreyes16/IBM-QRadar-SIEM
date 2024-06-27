@@ -161,5 +161,10 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/03ed9656-1d3a-46db-9041-38343ecfece6)
 
 
-18. You will be returned 
+18. You will be returned to the "Request Certificates" window, click "Enroll" as shown.
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/8d47431e-07d1-4853-a410-b2d9f95a6689)
+
+19. The certificate will begin to be enrolled. Ensure the "STATUS" equals     
+
 
