@@ -67,6 +67,30 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
 13. After enabling the ability to export the private key, the next step is to provide a display name. To do this click on the "General" tab and within the "Template display name:" field enter the desired name as shown.    
 
-    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/58d775cb-bf8b-459d-9af6-8d651d022683)
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/770ca202-c190-42ca-b874-4450d8ca2bf7)
 
-  
+14. Close out the template by clicking on "OK" as shown.
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/467c783a-9dfb-4cb9-bb66-34ce5193f9db)
+
+15. This will return you to the "Certificate Templates Console", verify you see the new created certificate via the display name you provided in step 13. Example: ADFSv2.
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/53e53955-f532-4f7b-a522-ae5fba6ab3a9)
+
+16. Close out the "Certificate Templates Console" window.
+
+17. You will be returned to the "Certification Authority" page. Right click on the "Certificate Templates" directory and select "New>" and "Certificate Template to Issue".    
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/0972cbbd-29c7-4e7d-9657-8823bba77984)
+
+18. The "Enable Certificate Templates" window will appear. Select the template you previously created, example: ADFSv2 and then click on "OK" as shown.
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/f72e6403-6aa6-487a-83be-b159c86b0130)
+
+19. Finally, verify the new template is within the "Certificate Templates" directory as shown. Once verified you can close out the "Certification Authority" and log off of the server.
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/df62de57-5f3f-499a-aa99-47a48f8160aa)
+---
+## Configure ADFS Certificate
+
+1. Logon 
