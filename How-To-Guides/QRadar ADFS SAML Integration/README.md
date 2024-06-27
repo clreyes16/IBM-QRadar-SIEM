@@ -29,7 +29,7 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/8c5ecd6f-66f3-4019-9a6d-2ed9ff578689)
 
-4. The certification authority pop-up window appear, expand the CA by click on the menu arrow as shown to see all certificate directories.    
+4. The certification authority pop-up window appear, expand the CA by clicking on the menu arrow as shown to see all certificate directories.    
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/89eb3439-49ec-4f1f-bb53-00b8c1886c28)
 
