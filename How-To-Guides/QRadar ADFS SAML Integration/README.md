@@ -15,7 +15,7 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
   * [Configure ADFS Relying Party Trusts](#configure-adfs-relying-party-trusts)
   * [Verify Successful QRadar Logon](#verify-successful-qradar-logon)
 ---
-## Build ADFS Certificate Temple
+## Build ADFS Certificate Template
 <sub>Expectations/Requirements: This section requires administrator access to the CA server and the ability to create and issue templates.</sub>
 
 1. Log onto CA server or server that is hosting the certificate authority service.
