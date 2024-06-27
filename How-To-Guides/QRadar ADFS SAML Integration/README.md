@@ -93,4 +93,18 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 ---
 ## Configure ADFS Certificate
 
-1. Logon 
+1. Logon to ADFS server or server hosting ADFS service.
+
+2. Click the "Windows" icon in the bottom left corner and type "mmc".
+
+3. The "mmc" will appear, click on it to open.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/a4f73b98-1b64-4d23-bfe6-a3a77bd981a0)
+
+4. The "User Account Control" pop-up window should appear, click "Yes" as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/8a82e61a-0c83-4853-995a-7b46051b5736)
+
+5. 
+
+
