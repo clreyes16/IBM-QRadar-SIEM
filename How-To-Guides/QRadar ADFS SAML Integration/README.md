@@ -105,6 +105,16 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/8a82e61a-0c83-4853-995a-7b46051b5736)
 
-5. 
+5. You will be brought to the mmc console. Click on "File" and "Add/Remove Snap in..." as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/3e39f199-70e5-4a31-b286-654aa82bdcd9)
+
+6. The "Add or Remove Snap-ins" window will appear as shown. Select "Certificates" from the "Available snap-ins:" pane and then click "Add>" as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/4c986d62-64e4-4c8f-b439-6d2b502eaa3a)
+
+7. The "Certificates snap-in" in will appear. Select the radial button for "Computer account" and then click "Next" as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/fc84dce1-75e0-47a6-93a5-08d98e8cdfd2)
 
 
