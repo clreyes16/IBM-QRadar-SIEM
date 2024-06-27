@@ -49,5 +49,10 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/e1f53625-5836-4613-9ca5-76a93cbdfe38)
 
+9. The "Select Users, Computers, Service Accounts, or Groups" pop-up window will appear. Type "Domain Computers" and click "Check Names" as shown to ensure you entered the right object. After ensuring the right object was selected click "OK".
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/fc43aed7-ace4-4fbb-8b8a-c9c3d16fc9ab)
+   
+
 
       
