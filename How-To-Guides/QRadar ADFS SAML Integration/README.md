@@ -57,6 +57,16 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/171ac47b-a883-44a2-8617-fcda3807dd7e)
 
+11. Having completed the security requirements for the certificate, the next step is to modify the request handling. Click on the "Request Handling" tab as shown.
 
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/2c90a292-6adf-4bb1-92c4-d245c8979064)
 
-      
+12. Locate the "Allow private key to be exported" and chck the box to enable this as shown.
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/f2885784-e741-4216-b3ab-e37390e57462)
+
+13. After enabling the ability to export the private key, the next step is to provide a display name. To do this click on the "General" tab and within the "Template display name:" field enter the desired name as shown.    
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/58d775cb-bf8b-459d-9af6-8d651d022683)
+
+  
