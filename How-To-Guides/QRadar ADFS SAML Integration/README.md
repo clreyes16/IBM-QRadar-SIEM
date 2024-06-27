@@ -156,5 +156,10 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/d2d0d54e-8f61-45e7-9746-64aef6af52bb)
     
+17. Next, click on the "General" tab and enter a name within the "Friendly name:" field, example: adfs.dmz.fisc.domain. Then click "OK" as shown.
 
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/03ed9656-1d3a-46db-9041-38343ecfece6)
+
+
+    
 
