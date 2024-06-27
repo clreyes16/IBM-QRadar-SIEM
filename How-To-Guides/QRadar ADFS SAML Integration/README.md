@@ -141,7 +141,11 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/0b878d85-52af-4a23-a583-fa33c32404d6)
     
+14. The "Request Certificates" page will appear. Select the certificate created in the previous section, example: ADFSv2. Then click on "More information is required to enroll for this certificate. Click here to configure settings."
 
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/9b3f9da7-71bf-44f7-ae85-dc454663aba6)
+
+    
 
 
 
