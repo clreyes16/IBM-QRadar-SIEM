@@ -9,7 +9,7 @@ This how to guide provides instruction on how to add an additional hard drive to
   * [Add HDD to QRadar VM](#add-hdd-to-qradar)
   * [Add HDD to Volume Group](#add-hdd-to-volume-group)
   * [Extend Partition/Logical Volume](#extend-partition/logical-volume)
-
+---
 ## Add HDD to QRadar VM
 <sub>Expectations/Requirements: This section requires vCenter/vSphere permissions to edit VM's and add an HDD.</sub>
 
