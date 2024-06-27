@@ -113,8 +113,13 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/4c986d62-64e4-4c8f-b439-6d2b502eaa3a)
 
-7. The "Certificates snap-in" in will appear. Select the radial button for "Computer account" and then click "Next" as shown.
+7. The "Certificates snap-in" window will appear. Select the radial button for "Computer account" and then click "Next" as shown.
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/fc84dce1-75e0-47a6-93a5-08d98e8cdfd2)
 
+8. The "Select Computer" window will appear. Leave the default "Local computer" option selected and click "Finish".
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/b7879ad3-497f-457e-bfa1-afc6edfeb284)
+
+9. AFter clicking on finish, you will be returned to the "Add or Remove Snap-ins" window as shown. Verify the "Certificates (Local Computer)"    
 
