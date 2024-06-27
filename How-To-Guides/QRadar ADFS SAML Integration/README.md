@@ -121,5 +121,27 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/b7879ad3-497f-457e-bfa1-afc6edfeb284)
 
-9. AFter clicking on finish, you will be returned to the "Add or Remove Snap-ins" window as shown. Verify the "Certificates (Local Computer)"    
+9. After clicking on finish, you will be returned to the "Add or Remove Snap-ins" window as shown. Verify the "Certificates (Local Computer)"    
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/1cfb65e7-4b45-4b3c-921e-aa1c41e05b98)
+
+10. You will be returned to the Console page. Expand the "Personal" directory by clicking on the drop down arrow as shown.
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/56d27fc6-a32c-418d-a346-6c49fcc5637b)
+
+11. Right click on the "Certificates" directory, select "All Tasks" and then select "Request New Certificate...".
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/86061b48-0c59-4704-903f-2af824d0d0c0)
+
+12. This will launch the "Certificate Enrollment" window as shown. At this window click "Next".
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/a06ebf4d-407e-4beb-a631-f628a445ca5d)
+
+13. The "Select Certificate Enrollment Policy" will appear, leave this as default and click "Next".
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/0b878d85-52af-4a23-a583-fa33c32404d6)
+    
+
+
+
 
