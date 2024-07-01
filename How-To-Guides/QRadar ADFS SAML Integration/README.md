@@ -174,3 +174,18 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/ee6f5ee3-50d9-49b1-add5-855baee96dd5)
 
+21. Double click on the certificate in order to open the certificate properties, as shown. Click on "Details" tab.
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/7682bd17-2b16-486e-b3ac-6aa28c5ed9bc)
+
+22. Within the details tab, click on "Copy to File..." as shown.
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/d204d9bc-4e7b-42ba-96e3-b429e06d6e38)
+   
+23. This will open the "Certificate Export Wizard". Click on "Next" as shown. 
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/f64937ee-12b3-4bc4-945b-b0db85863df6)
+
+24. In the "Export Private Key" menu, select the "Yes, export the private key" and click on "Next" as shown.     
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/3d5e1116-a63e-4a20-8171-ec5690bd0d5e)
