@@ -317,7 +317,18 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/abdb036e-f7fb-48e5-b64b-ac4aa301e533)
 
-21. 
+21. You will be brought to the "Specify Configuration Database". If you wish to connect to an existing SQL server database you may do that. For demonstration purposes, I am leaving the default "Create a database on this server using Windows Internal Database". Click "Next >".
         
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/9b166dd5-6ded-452d-9f80-fb1a642b27ee)
 
-      
+22. If there was an existed ADFS database on the system previously you will be brought to the "Confirm Overwrite" page. Check the "Overwrite existing AD FS configuration database data". After which click "Next >".
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/3218f6d8-03c0-4278-8ec8-919860ed099e)
+
+23. The next page you will be brought to is the "Review Options". Review the selections within the window pane and then click "Next >".
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/2390aa0d-3472-4820-aed9-ede4e06ef008)
+
+24.     
+
+  
