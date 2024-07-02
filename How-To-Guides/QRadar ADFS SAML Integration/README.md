@@ -253,7 +253,21 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/4405a546-d0bf-42ed-a598-0451058dc929)
 
-5.    
+5. At the "Server Roles" menu select "Active Directory Federation Services" and click "Next >".
+
+  ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/1e481480-9ce4-49ff-8970-51f2cef798bf)
+
+6. At the "Features" menu change nothing and click "Next >". 
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/dc30bad1-d28d-46b5-a423-213c2fe4fc06)
+
+7. You will now be brought to the "Active Directory Federation Services (AD FS) configuration page. Click "Next >".
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/82329523-9c95-47be-80d8-84311d30e4c2)
+
+8.     
+   
+
 
     
 
