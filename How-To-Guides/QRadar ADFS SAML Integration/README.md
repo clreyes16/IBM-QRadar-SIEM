@@ -265,8 +265,20 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/82329523-9c95-47be-80d8-84311d30e4c2)
 
-8.     
+8. At the "Confirmation" page click the "Install" button as shown.      
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/1ef11068-90bd-4340-bdfb-539efb0add40)
+
+9. The installation will now begin, monitor the progress for any errors.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/33dcf673-0bcb-4b26-ab99-560e5c19930c)
+
+10. Once the installation is completed, you are required to configure the ADFS server. Click on "Configure the federation service on this server" as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/3e78d54d-69b0-4e65-8613-c8833b73f2d1)
    
+
+
 
 
     
