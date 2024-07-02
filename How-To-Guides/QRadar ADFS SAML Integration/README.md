@@ -198,7 +198,7 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
     * Next
 
 
-![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/7f6dce2f-9f88-4186-86ee-ca7d18a37cbd)
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/7f6dce2f-9f88-4186-86ee-ca7d18a37cbd)
 
 26. You will be brought to the "Security" page as shown. Select the "Password:" option and enter the desired password as shown in both fields. Click "Next". 
 
@@ -212,10 +212,29 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
     * Example: Desktop -> adfs -> save
 
 
-![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/4f060a03-8d6a-4cb9-a594-91a80e6acc4b)
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/4f060a03-8d6a-4cb9-a594-91a80e6acc4b)
 
 29. This will return you to the "File to Export" menu. Under the "File name:" field ensure the path and name of the certificate is correct, then click "Next".           
     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/322ce495-2898-457a-9754-a1cac2c24780)
 
+
+30. You will be brought to the "Completing the Certificate Export Wizard", verify all the certificate details within the shown window and then click "Finish".
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/77ee44f4-8d10-48b7-a9e0-a8a8eae153d6)
+
+31. This will bring you to the "Certificate Export Wizard" ensure you receive the following, "The export was successful" and then click "OK".
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/77d6e901-8a20-402d-bb30-ef68981324ca)
+
+32. Finally the export wizard will close and you will be returned to the MMC console. Click the X to close out the window and select "NO" at the prompt to save settings.
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/36af98c1-dd5e-46af-b0bf-950730aede6d)
+
+---
+## Configure ADFS Server
+    
+
+
+        
 
       
