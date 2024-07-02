@@ -189,3 +189,27 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 24. In the "Export Private Key" menu, select the "Yes, export the private key" and click on "Next" as shown.     
 
     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/3d5e1116-a63e-4a20-8171-ec5690bd0d5e)
+
+25. This will bring you to the "Export File Format" menu as shown. Select the following options:
+    * Check: Personal Information Exchange - PKCS #12 (.PFX)
+    * Check: Include all certificates in the certification path if possible
+    * Check: Export all extended properties
+    * Uncheck: Enable certificate privacy
+    * Next
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/7f6dce2f-9f88-4186-86ee-ca7d18a37cbd)
+
+26. You will be brought to the "Security" page as shown. Select the "Password:" option and enter the desired password as shown in both fields. Click "Next". 
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/4decc30a-3cf6-4501-8328-597b7c5b204d)
+
+27. This will bring you to the "File to Export" page. Click on the "Browse..." option as shown.
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/530f7152-de36-4b11-b991-97b2428ef5a0)
+
+28. Navigate to the desired directory where the certificate will be stored and provide it a name in the "File name:" field and click Save as shown.
+    * Example: Desktop -> adfs -> save
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/4f060a03-8d6a-4cb9-a594-91a80e6acc4b)
+          
+    
+
+      
