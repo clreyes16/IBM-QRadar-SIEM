@@ -233,6 +233,30 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 ---
 ## Configure ADFS Server
     
+1. Open "Server Manager" and click on "Add roles and features" as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/dbcb449a-2dc7-40eb-8db5-ea6c8502c040)
+
+2. You will be brought to the "Add Roles and Features Wizard", click "Next>".
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/91812b75-cdb1-4168-a212-c4431312cde9)
+
+3. At the "Installation Type" menu select "Role-based or feature-based installation" and then click "Next >" as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/a99bab0b-7ee5-47e8-af0f-840897468640)
+
+4. In the "Server Selection" menu select the following options:
+   * Click "Select a server from the server pool"
+   * Within Server Pool select the desired server
+   * Click "Next >"
+
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/4405a546-d0bf-42ed-a598-0451058dc929)
+
+5.    
+
+    
+
 
 
         
