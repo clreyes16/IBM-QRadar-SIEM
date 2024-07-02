@@ -275,12 +275,41 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
 10. Once the installation is completed, you are required to configure the ADFS server. Click on "Configure the federation service on this server" as shown.
 
-   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/3e78d54d-69b0-4e65-8613-c8833b73f2d1)
+     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/3e78d54d-69b0-4e65-8613-c8833b73f2d1)
+
+11. You will be brought to the "Active Directory Federation Services Configuration Wizard". Click "Next >".    
    
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/792b4989-1c7f-4144-a3e5-4a8979ffe3f5)
 
+12. This will bring you to the "Connect to AD DS" menu. Select a user with active directory domain administrator permissions, this tends to be a domain administrator. After selecting the domain administrator account select "Next >".     
 
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/c8b25c26-4999-4690-a4d2-c74d803abad0)
 
+13. You will be brought to the "Specify Server Properties" window. In the "SSL Certificate:" field click on the "Import" button as shown.    
 
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/3e9d1317-f62e-4367-807e-db975fed68e6)
+
+14. Navigate to the location of the certificate created in the previous section. Select the certificate and then click "Open" as shown.
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/7c450f2b-c207-4fea-b8b4-f8370b875805)
+
+15. Due to their being a password on the certificate you will be brought to the "Enter certificate password" screen. Enter the password created in the previous section and click "OK". 
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/3eba1437-e6ee-4b78-a678-ff7f5fbddb98)
+
+16. You will be returned to the "Specify Service Properties" window. The SSL certificate field will now be populated, along with the "Federation Service Name:" as shown. 
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/c8d15a77-9b94-40f5-8f00-6e1e5f8947a1)
+
+17. Within the "Federation Service Display Name:" enter the desired name for the display name and then click "Next >" as shown.
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/c10c177c-bca0-4821-85cf-52ebba0f5a63)
+
+18. You will be brought to the "Specify Service Account" page. This is up to the organizations preference but a group managed service account or existing user account can be used. For the purposes of demonstration an existing domain user account will be used. Click on "Use and existing domain user account or group Managed Service Account" and then "Select...".
+
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/6892dbf0-d7b1-40be-ae91-b5e729adf90a)
+
+19. 
     
 
 
