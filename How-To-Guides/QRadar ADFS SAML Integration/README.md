@@ -309,11 +309,15 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/6892dbf0-d7b1-40be-ae91-b5e729adf90a)
 
-19. 
-    
+19. Within the "Select User or Service Account", enter the user account name and click "Check Names" to ensure the proper resolution of the name. Click "OK". 
 
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/02b013ce-d719-4a86-8306-e765b9011c6f)
 
+20. After clicking ok you will be returned to the "Specify Service Account" window. Enter the password for the user in the "Account Password:" field as shown and then click "Next >". 
 
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/abdb036e-f7fb-48e5-b64b-ac4aa301e533)
+
+21. 
         
 
       
