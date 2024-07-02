@@ -209,7 +209,9 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 28. Navigate to the desired directory where the certificate will be stored and provide it a name in the "File name:" field and click Save as shown.
     * Example: Desktop -> adfs -> save
     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/4f060a03-8d6a-4cb9-a594-91a80e6acc4b)
-          
-    
+
+29. This will return you to the "File to Export" menu. Under the "File name:" field ensure the path and name of the certificate is correct, then click "Next".           
+    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/322ce495-2898-457a-9754-a1cac2c24780)
+
 
       
