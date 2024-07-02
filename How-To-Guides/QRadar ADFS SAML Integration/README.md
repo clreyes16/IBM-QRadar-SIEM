@@ -329,6 +329,6 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
     ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/2390aa0d-3472-4820-aed9-ede4e06ef008)
 
-24.     
+24. The installation will start     
 
   
