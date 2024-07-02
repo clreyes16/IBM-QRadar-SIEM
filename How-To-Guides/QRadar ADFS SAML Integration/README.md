@@ -196,6 +196,8 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
     * Check: Export all extended properties
     * Uncheck: Enable certificate privacy
     * Next
+
+
 ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/7f6dce2f-9f88-4186-86ee-ca7d18a37cbd)
 
 26. You will be brought to the "Security" page as shown. Select the "Password:" option and enter the desired password as shown in both fields. Click "Next". 
@@ -208,6 +210,8 @@ This how to guide provides instruction on SAML integrating QRadar with Windows A
 
 28. Navigate to the desired directory where the certificate will be stored and provide it a name in the "File name:" field and click Save as shown.
     * Example: Desktop -> adfs -> save
+
+
 ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/4f060a03-8d6a-4cb9-a594-91a80e6acc4b)
 
 29. This will return you to the "File to Export" menu. Under the "File name:" field ensure the path and name of the certificate is correct, then click "Next".           
