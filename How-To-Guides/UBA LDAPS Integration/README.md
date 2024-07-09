@@ -1,8 +1,8 @@
 # QRadar UBA LDAPS Active Directory User Import
 <sub>Requirements: Several requirements must be meet in order to properly accomplish this how to guide. 
-                * First, the Active Directory administrator must create and provide a service account that has the ability to LDAP bind with Active Directory.
-                * Second, the QRadar Administrator must obtain the Root Certificate Authority certificate. This can be done several ways, this guide will demonstrate one such way.
-                * Finally, the user performing this how to guide needs administrator level access to the UBA application.<sub>
+                ** First, the Active Directory administrator must create and provide a service account that has the ability to LDAP bind with Active Directory.
+                ** Second, the QRadar Administrator must obtain the Root Certificate Authority certificate. This can be done several ways, this guide will demonstrate one such way.
+                ** Finally, the user performing this how to guide needs administrator level access to the UBA application.<sub>
 
 This guide provides instructions on how to enable FIPS within a QRadar deployment. Enabling FIPS is critical within QRadar deployments being hosted in government entities that require STIG (NIST 800-53) compliance. There are 20 items within the RHEL 8 STIG Version 1 Release 14 that are all directly applicable to FIPS enablement, to include a CAT 1. 
 
