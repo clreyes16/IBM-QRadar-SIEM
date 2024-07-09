@@ -4,17 +4,19 @@
 Purpose: This how to guide provides instruction on how to LDAPS import users from Active Directory into QRadar User Behavior Analytics application. 
 ----
 **Table of Contents**
-* [Obtain Root CA Certificate in PEM format](#obain-root-ca-certificate-in-pem-format)
+* [Obtain Root CA Certificate in PEM Format](#obain-root-ca-certificate-in-pem-format)
 * [Download Root CA Certificate](#download-root-ca-certificate)
 * [Import AD Users into UBA](#import-ad-users-into-uba)
 * [Verify AD User Import into UBA](#verify-user-import-into-uba)
 * [Conclusion](#conclusion)
 ---  
-## Verify FIPS Status
-<sub>Expectations: While it is assumed that the QRadar deployment is not FIPS enabled, it is always best to first verify the current FIPS status of the QRadar deployment prior to continuing.<sub>
+## Obtain Root CA Certificate in PEM Format
+<sub>Expectations: This section expects that the QRadar webpage is already TLS encrypted and the "QRadar TLS Certificate Implementation" how to guide located in this repoistory was used to do. If the <sub>
 
 1. Login to QRadar Console CLI via Putty or other terminal emulator.
-2. Verify system does not currently have FIPS enabled via the following command.
+   
+2.  
+4. Verify system does not currently have FIPS enabled via the following command.
 ```bash
 fips-mode-setup --check
 ```
