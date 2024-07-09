@@ -103,6 +103,9 @@ Purpose: This how to guide provides instruction on how to LDAPS import users fro
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/90a371a8-c359-4da7-aa2a-14beba678617)
 
+7. Click on the "Certificate" upload button as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/3e092cb9-2ccf-4ac1-97c0-df4a1102f58f)
 
 
 
