@@ -29,52 +29,21 @@ Purpose: This how to guide provides instruction on how to LDAPS import users fro
    
 ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/d4944deb-131f-4479-925c-4be49085be88)
 
-4.    
-5. Verify system does not currently have FIPS enabled via the following command.
-```bash
-fips-mode-setup --check
-```
-3. Ensure the output of the following command, appears as shown.
-  
- ![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/f2b46fa8-7413-4a20-81a9-d863abd77f6c)
+4. Convert the .crt formatted ca certificate into a PEM formatted certificate via the following command.
 
+   ```bash
+   openssl x509 -in ca.crt -out ca.pem -outform PEM
+   ```
 
-## Enable FIPS
-1. Enable FIPS via the following command:
-```bash
-fips-mode-setup --enable
- ```
-2. Similar output to the below screenshot should be seen.
+![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/46b139f2-4ad0-4348-9ae2-5194c08f0c5d)
 
+5. Verify the PEM certificate was created as shown.
 
-![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/8edffce1-9177-45e5-9bad-59cf2bff36bd)
+   ```bash
+   ls
+   ```
 
-
-3. After receiving the above screenshot and "FIPS mode will be enabled" message, the next step is to reboot the server.
-
-```bash
-reboot
-```
-
-![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/fdb6c8be-6974-4e8f-8b38-daf1a543fdc2)
-
-
-## Verify FIPS Enablement
-1. After the reboot, log back onto the console via putty or other terminal emulator. You will be prompted with following warning due to FIPS being enabled, click "Accept". 
-
-![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/7f2134cf-85b8-4aa5-b443-bdf110cf7162)
-
-
-2. Verify FIPS is successfully enabled via the following command:
-```bash
-fips-mode-setup --check
-```
-
-
-3. The following output in the screenshot should be observed on your deployment.
+![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/77e7c838-9ee2-4eca-bd93-b8d12adf5067)
 
    
-![image](https://github.com/clreyes16/IBM-QRadar/assets/61694366/cd319a1b-e36e-4d8a-bfca-176338bfaca2)
 
-## Conclusion
-After verifying that the Console has successfully enabled FIPS, you must go perform all previous steps on all remaining managed hosts within the QRadar deployment.
