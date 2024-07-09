@@ -20,13 +20,13 @@ Purpose: This how to guide provides instruction on how to LDAPS import users fro
    ```bash
    cd /root/new.certs/
    ```
-![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/ea5f51ce-ecdc-4b20-9e9e-347e1e54d2d3)
 
 3. Locate the ca.crt certificate as shown via the ls command.
 
    ```bash
    ls
    ```
+![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/d4944deb-131f-4479-925c-4be49085be88)
 
 4.    
 5. Verify system does not currently have FIPS enabled via the following command.
