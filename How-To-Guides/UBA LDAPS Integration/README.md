@@ -59,5 +59,36 @@ Purpose: This how to guide provides instruction on how to LDAPS import users fro
     
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/0d096efa-887b-48d1-8e00-bed8b0d90a03)
 
-   
+3. Navigate to the /root/new.certs directory within the QRadar server side as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/4780ae07-0693-48b6-b4fe-687766d96a90)
+
+4. Drag the ca.pem file over to the local machine within the desired directory, as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/5c6d6b43-e709-469d-afe8-1ddaf0a86a9b)
+
+5. Having extracted the ca.pem certificate to the local machine directory, proceed to the next section.
+
+---
+
+## Import AD Users into UBA
+
+1. Log into the QRadar GUI.
+
+2. Click on the "Admin" tab, scroll down to the "User Analytics" app and click on "User Import" as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/a4bd77f2-87e4-45d8-ac14-3f7186cf84e5)
+
+3. At the "User Import" page, click on "Add", as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/4ecd1d8b-b9dd-47de-9a4d-79f7df412bac)
+
+4. Click on  the LDAP/AD option as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/19f660c5-d83f-4a65-9ce7-6797c0d2d33d)
+
+
+
+
+
 
