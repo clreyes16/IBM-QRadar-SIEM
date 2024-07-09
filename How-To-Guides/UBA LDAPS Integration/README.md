@@ -15,8 +15,21 @@ Purpose: This how to guide provides instruction on how to LDAPS import users fro
 
 1. Login to QRadar Console CLI via Putty or other terminal emulator.
    
-2. Change directories to the /root/new.certs/ directory were the QRadar webpage cert should be located. 
-4. Verify system does not currently have FIPS enabled via the following command.
+2. Change directories to the /root/new.certs/ directory were the QRadar webpage cert should be located.
+
+   ```bash
+   cd /root/new.certs/
+   ```
+![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/ea5f51ce-ecdc-4b20-9e9e-347e1e54d2d3)
+
+3. Locate the ca.crt certificate as shown via the ls command.
+
+   ```bash
+   ls
+   ```
+
+4.    
+5. Verify system does not currently have FIPS enabled via the following command.
 ```bash
 fips-mode-setup --check
 ```
