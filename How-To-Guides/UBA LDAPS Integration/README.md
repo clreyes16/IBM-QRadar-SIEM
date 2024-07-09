@@ -4,9 +4,10 @@
 Purpose: This how to guide provides instruction on how to LDAPS import users from Active Directory into QRadar User Behavior Analytics application. 
 ----
 **Table of Contents**
-* [Verify FIPS Status](#verify-fips-status)
-* [Enable FIPS](#enable-fips)
-* [Verify FIPS Enablement](#verify-fips-enablement)
+* [Obtain Root CA Certificate in PEM format](#obain-root-ca-certificate-in-pem-format)
+* [Download Root CA Certificate](#download-root-ca-certificate)
+* [Import AD Users into UBA](#import-ad-users-into-uba)
+* [Verify AD User Import into UBA](#verify-user-import-into-uba)
 * [Conclusion](#conclusion)
 ---  
 ## Verify FIPS Status
