@@ -46,7 +46,18 @@ Purpose: This how to guide provides instruction on how to LDAPS import users fro
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/77e7c838-9ee2-4eca-bd93-b8d12adf5067)
 
 ---
-##Download Root CA Certificate
+## Download Root CA Certificate
+
+1. Open WinSCP or other file transfer program.
+
+2. Enter the QRadar server information, example shown.
+
+   * Host name: FQDN or IP Address of QRadar Console
+   * User name: username such as root
+   * Password: password for the selected user.
+   * Click Login
+    
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/0d096efa-887b-48d1-8e00-bed8b0d90a03)
 
    
 
