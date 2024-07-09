@@ -27,7 +27,7 @@ Purpose: This how to guide provides instruction on how to LDAPS import users fro
    ls
    ```
    
-![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/d4944deb-131f-4479-925c-4be49085be88)
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/d4944deb-131f-4479-925c-4be49085be88)
 
 4. Convert the .crt formatted ca certificate into a PEM formatted certificate via the following command.
 
@@ -35,7 +35,7 @@ Purpose: This how to guide provides instruction on how to LDAPS import users fro
    openssl x509 -in ca.crt -out ca.pem -outform PEM
    ```
 
-![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/46b139f2-4ad0-4348-9ae2-5194c08f0c5d)
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/46b139f2-4ad0-4348-9ae2-5194c08f0c5d)
 
 5. Verify the PEM certificate was created as shown.
 
@@ -43,7 +43,10 @@ Purpose: This how to guide provides instruction on how to LDAPS import users fro
    ls
    ```
 
-![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/77e7c838-9ee2-4eca-bd93-b8d12adf5067)
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/77e7c838-9ee2-4eca-bd93-b8d12adf5067)
+
+---
+##Download Root CA Certificate
 
    
 
