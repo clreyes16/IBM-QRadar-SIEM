@@ -87,6 +87,24 @@ Purpose: This how to guide provides instruction on how to LDAPS import users fro
 
    ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/19f660c5-d83f-4a65-9ce7-6797c0d2d33d)
 
+5. You will be brought to the "LDAP server configuration" page as shown.
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/f5d910d7-877f-4d5c-839d-c7ac42daf977)
+
+6. Enter all relevant LDAP information into the configuration page as shown. All this information can be different depending on environment the the OU which needs to be monitored.
+
+   * Protocol: ldaps://
+   * LDAP server host*: the FQDN of the LDAPS server
+   * Port: 636 (LDAPS)
+   * Username (Bind DN): service account created by the Active Directory administrator
+   * Password: password for service account used in the Username (Bind DN) field.
+   * Base DN: The DN of the OU you want to monitor
+   * Filter: (&(sAMAccountName=*)(samAccountType=805306368))
+
+   ![image](https://github.com/clreyes16/IBM-QRadar-SIEM/assets/61694366/90a371a8-c359-4da7-aa2a-14beba678617)
+
+
+
 
 
 
